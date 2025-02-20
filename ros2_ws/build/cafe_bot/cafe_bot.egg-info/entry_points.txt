@@ -1,0 +1,2 @@
+[console_scripts]
+nav_goal_publisher = cafe_bot.nav_goal_publisher:main

@@ -1,0 +1,29 @@
+running develop
+running egg_info
+creating cafe_bot.egg-info
+writing cafe_bot.egg-info/PKG-INFO
+writing dependency_links to cafe_bot.egg-info/dependency_links.txt
+writing requirements to cafe_bot.egg-info/requires.txt
+writing top-level names to cafe_bot.egg-info/top_level.txt
+writing manifest file 'cafe_bot.egg-info/SOURCES.txt'
+reading manifest file 'cafe_bot.egg-info/SOURCES.txt'
+writing manifest file 'cafe_bot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/lib/python3.10/site-packages/cafe-bot.egg-link (link to .)
+
+Installed /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot
+running symlink_data
+creating /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/launch
+symbolically linking /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/launch/launch_sim.launch.py -> /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/launch
+symbolically linking /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/launch/turtle_launch.py -> /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/launch
+symbolically linking /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/launch/nav_launch.py -> /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/launch
+creating /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/worlds
+symbolically linking /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/worlds/cafe.world -> /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/worlds
+symbolically linking /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/worlds/cafe1.world -> /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/worlds
+symbolically linking /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/worlds/cafe_new.world -> /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/worlds
+creating /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/maps
+symbolically linking /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/maps/cafe_map.pgm -> /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/maps
+symbolically linking /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/maps/cafe_map.yaml -> /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/maps
+creating /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/ament_index/resource_index/packages
+symbolically linking /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/resource/cafe_bot -> /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/ament_index/resource_index/packages
+symbolically linking /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/package.xml -> /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot

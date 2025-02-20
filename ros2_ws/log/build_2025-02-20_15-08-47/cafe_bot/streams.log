@@ -1,0 +1,33 @@
+[0.319s] Invoking command in '/home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot': PYTHONPATH=/home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/build --no-deps symlink_data
+[0.393s] /home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[0.393s]   warnings.warn(msg)
+[0.463s] running develop
+[0.551s] running egg_info
+[0.557s] creating cafe_bot.egg-info
+[0.557s] writing cafe_bot.egg-info/PKG-INFO
+[0.557s] writing dependency_links to cafe_bot.egg-info/dependency_links.txt
+[0.557s] writing requirements to cafe_bot.egg-info/requires.txt
+[0.558s] writing top-level names to cafe_bot.egg-info/top_level.txt
+[0.558s] writing manifest file 'cafe_bot.egg-info/SOURCES.txt'
+[0.570s] reading manifest file 'cafe_bot.egg-info/SOURCES.txt'
+[0.571s] writing manifest file 'cafe_bot.egg-info/SOURCES.txt'
+[0.578s] running build_ext
+[0.578s] Creating /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/lib/python3.10/site-packages/cafe-bot.egg-link (link to .)
+[0.578s] 
+[0.578s] Installed /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot
+[0.578s] running symlink_data
+[0.579s] creating /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/launch
+[0.579s] symbolically linking /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/launch/launch_sim.launch.py -> /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/launch
+[0.579s] symbolically linking /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/launch/turtle_launch.py -> /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/launch
+[0.579s] symbolically linking /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/launch/nav_launch.py -> /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/launch
+[0.579s] creating /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/worlds
+[0.579s] symbolically linking /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/worlds/cafe.world -> /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/worlds
+[0.579s] symbolically linking /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/worlds/cafe1.world -> /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/worlds
+[0.579s] symbolically linking /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/worlds/cafe_new.world -> /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/worlds
+[0.579s] creating /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/maps
+[0.579s] symbolically linking /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/maps/cafe_map.pgm -> /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/maps
+[0.579s] symbolically linking /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/maps/cafe_map.yaml -> /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot/maps
+[0.579s] creating /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/ament_index/resource_index/packages
+[0.579s] symbolically linking /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/resource/cafe_bot -> /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/ament_index/resource_index/packages
+[0.579s] symbolically linking /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/package.xml -> /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/share/cafe_bot
+[0.592s] Invoked command in '/home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot' returned '0': PYTHONPATH=/home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/build --no-deps symlink_data

@@ -1,0 +1,31 @@
+[0.342s] Invoking command in '/home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot': PYTHONPATH=/home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/build --no-deps symlink_data
+[0.430s] /home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[0.430s]   warnings.warn(msg)
+[0.503s] running develop
+[0.510s] Traceback (most recent call last):
+[0.510s]   File "/home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/setup.py", line 5, in <module>
+[0.510s]     setup(
+[0.510s]   File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[0.510s]     return distutils.core.setup(**attrs)
+[0.510s]   File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[0.510s]     return run_commands(dist)
+[0.510s]   File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[0.510s]     dist.run_commands()
+[0.510s]   File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 983, in run_commands
+[0.510s]     self.run_command(cmd)
+[0.510s]   File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/dist.py", line 999, in run_command
+[0.510s]     super().run_command(command)
+[0.510s]   File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1001, in run_command
+[0.510s]     cmd_obj.ensure_finalized()
+[0.510s]   File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 124, in ensure_finalized
+[0.510s]     self.finalize_options()
+[0.510s]   File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/command/develop.py", line 51, in finalize_options
+[0.510s]     easy_install.finalize_options(self)
+[0.510s]   File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py", line 251, in finalize_options
+[0.510s]     'dist_fullname': self.distribution.get_fullname(),
+[0.510s]   File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 272, in get_fullname
+[0.511s]     return _distribution_fullname(self.get_name(), self.get_version())
+[0.511s]   File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 290, in _distribution_fullname
+[0.511s]     canonicalize_version(version, strip_trailing_zero=False),
+[0.511s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[0.522s] Invoked command in '/home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot' returned '1': PYTHONPATH=/home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/install/cafe_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/build --no-deps symlink_data

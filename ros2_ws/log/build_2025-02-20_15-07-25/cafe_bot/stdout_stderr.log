@@ -1,0 +1,29 @@
+/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+Traceback (most recent call last):
+  File "/home/i_corinthian/Documents/ros/ros_assesment/ros2_ws/build/cafe_bot/setup.py", line 5, in <module>
+    setup(
+  File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+    return distutils.core.setup(**attrs)
+  File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+    return run_commands(dist)
+  File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+    dist.run_commands()
+  File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 983, in run_commands
+    self.run_command(cmd)
+  File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/dist.py", line 999, in run_command
+    super().run_command(command)
+  File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1001, in run_command
+    cmd_obj.ensure_finalized()
+  File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 124, in ensure_finalized
+    self.finalize_options()
+  File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/command/develop.py", line 51, in finalize_options
+    easy_install.finalize_options(self)
+  File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py", line 251, in finalize_options
+    'dist_fullname': self.distribution.get_fullname(),
+  File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 272, in get_fullname
+    return _distribution_fullname(self.get_name(), self.get_version())
+  File "/home/i_corinthian/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 290, in _distribution_fullname
+    canonicalize_version(version, strip_trailing_zero=False),
+TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
